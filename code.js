@@ -11,7 +11,7 @@ function calculateResult(){
     }; 
 
     if (document.getElementById('section2-no').checked){
-        score +=8;
+        score +=7;
     }else { 
         score +=0
     }; 
@@ -54,7 +54,7 @@ function calculateResult(){
         document.getElementById("resultdisplay").innerHTML = score
     }; 
 
-    if (score >= 22){
+    if (score >= 21){
         message = `Your score is ${score}.  \n Do it.`
         document.getElementById("resultdisplay").innerHTML = message; 
     }else {
