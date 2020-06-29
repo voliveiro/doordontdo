@@ -60,6 +60,6 @@ function calculateResult(){
     } else {
         message = `Your score is ${score}. \n Don't do it.`
         document.getElementById("resultdisplay").innerHTML = message;
-    } 
+    }; 
     
 }
