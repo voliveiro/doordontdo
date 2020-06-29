@@ -46,7 +46,7 @@ function calculateResult(){
         score +=0
     }; 
 
-    if (document.getElementById('section8-yes').checked){
+    if (document.getElementById('section8-no').checked){
         score +=1;
         document.getElementById("resultdisplay").innerHTML = score
     }else { 
