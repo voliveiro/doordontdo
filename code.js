@@ -5,7 +5,6 @@ function calculateResult(){
 
     if (document.getElementById('section1-yes').checked){
         score +=10;
-        
     }else { 
         score +=0
     }; 
@@ -43,24 +42,25 @@ function calculateResult(){
     if (document.getElementById('section7-yes').checked){
         score +=1;
     }else { 
-        score +=0
+        score +=0;
     }; 
 
     if (document.getElementById('section8-no').checked){
         score +=1;
-        document.getElementById("resultdisplay").innerHTML = score
     }else { 
-        score +=0
-        document.getElementById("resultdisplay").innerHTML = score
+        score +=0;
     }; 
 
     if (score > 16){
-        message = `Your score is ${score}.  \n Do it.`
+       // alert(score);
+        message = `Your score is ${score}.  \n Do it.`;
         document.getElementById("resultdisplay").innerHTML = message; 
-    }else if  (score = 16 ) {
+    }else if  (score == 16 ) {
+        //alert(score);
         message = `Your score is ${score}.  \n Do it, but reprioritise other commitments.`
         document.getElementById("resultdisplay").innerHTML = message; 
     } else {
+        //alert(score);
         message = `Your score is ${score}. \n Don't do it.`
         document.getElementById("resultdisplay").innerHTML = message;
     }; 
