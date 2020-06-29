@@ -10,7 +10,7 @@ function calculateResult(){
         score +=0
     }; 
 
-    if (document.getElementById('section2-yes').checked){
+    if (document.getElementById('section2-no').checked){
         score +=8;
     }else { 
         score +=0
@@ -40,7 +40,7 @@ function calculateResult(){
         score +=0
     }; 
 
-    if (document.getElementById('section7-yes').checked){
+    if (document.getElementById('section7-no').checked){
         score +=1;
     }else { 
         score +=0
