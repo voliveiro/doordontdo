@@ -40,7 +40,7 @@ function calculateResult(){
         score +=0
     }; 
 
-    if (document.getElementById('section7-no').checked){
+    if (document.getElementById('section7-yes').checked){
         score +=1;
     }else { 
         score +=0
