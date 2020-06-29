@@ -59,9 +59,9 @@ function calculateResult(){
         document.getElementById("resultdisplay").innerHTML = message; 
     }else if (score < 16{
         message = `Your score is ${score}. \n Don't do it.`
-        Document.getElementById("resultdisplay").innerHTML = message;
+        document.getElementById("resultdisplay").innerHTML = message;
     }else {
-        Document.getElementById("resultdisplay").innerHTML = "Error";
+        document.getElementById("resultdisplay").innerHTML = "Error";
     }
     
 }
