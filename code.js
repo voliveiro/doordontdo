@@ -54,7 +54,7 @@ function calculateResult(){
         document.getElementById("resultdisplay").innerHTML = score
     }; 
 
-    if (score >= 21){
+    if (score >= 16){
         message = `Your score is ${score}.  \n Do it.`
         document.getElementById("resultdisplay").innerHTML = message; 
     }else {
