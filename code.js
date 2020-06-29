@@ -17,13 +17,13 @@ function calculateResult(){
     }; 
 
     if (document.getElementById('section3-yes').checked){
-        score +=2;
+        score +=1;
     }else { 
         score +=0
     }; 
 
     if (document.getElementById('section4-yes').checked){
-        score +=2;
+        score +=1;
     }else { 
         score +=0
     }; 
@@ -57,7 +57,7 @@ function calculateResult(){
     if (score > 16){
         message = `Your score is ${score}.  \n Do it.`
         document.getElementById("resultdisplay").innerHTML = message; 
-    }else if  (score = 16){
+    }else if  (score = 16 ) {
         message = `Your score is ${score}.  \n Do it, but reprioritise other commitments.`
         document.getElementById("resultdisplay").innerHTML = message; 
     } else {

@@ -40,7 +40,7 @@ h1 {
     text-align: center; 
     
 }
-h3 {
+.question {
     font-size: 20px; 
     font-weight: 400; 
     text-align: left; 
@@ -101,7 +101,20 @@ button:focus{
     font-size: 22px;
 }
  
+.points{
+    font-weight: 400; 
+    font-size: 14px; 
+    color: grey; 
+    
+}
 
+.link-to-questionnaire { 
+    text-align: center; 
+}
+
+a{ 
+    font-size: 18px; 
+}
 
  
  
