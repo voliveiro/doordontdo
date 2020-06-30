@@ -212,12 +212,10 @@ function calculateResult(){
     let finalScore = (totalScore/weightedTotal)*100
 
     if (finalScore > 66){
-        alert(finalScore);
-        message = `Your score is ${finalScore}.  \n Do it.`;
+        message = `Your score is ${finalScore}%.  \n Do it.`;
         document.getElementById("resultdisplay").innerHTML = message; 
     } else {
-        alert(finalScore);
-        message = `Your score is ${finalscore}. \n Don't do it.`
+        message = `Your score is ${finalScore}%. \n Don't do it.`
         document.getElementById("resultdisplay").innerHTML = message;
     }; 
     
