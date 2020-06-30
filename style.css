@@ -4,8 +4,7 @@ body {
 
 @media screen and (min-width: 500px){
     body {
-        width: 1000px; 
-        margin: 0 auto; 
+        margin: 20px 50px 20px 50px; 
     }
 
 }
@@ -87,7 +86,9 @@ button:focus{
 
 .results-section{
     margin-top: 10px; 
+    margin-bottom: 10px; 
     border: 5px solid navy; 
+    
    
 }
 
@@ -113,7 +114,7 @@ button:focus{
 }
 
 a{ 
-    font-size: 18px; 
+    font-size: 1px; 
 }
 
  
