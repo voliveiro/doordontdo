@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do or Don't Do?</title>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header> 
+        <h1> Do or Don't Do?</h1>
+    </header>
+
+    <section class="explanation"> 
+
+        <p> This questionnaire helps you decide whether to take on another commitment outside of regular work (e.g. a speaking engagement, a volunteer effort, serving on a board). </p> 
+        
+        <p> It assumes you have a <em> choice </em> about this commitment. </p>
+        
+        <p>The questions are <a href="weightage.html"> weighted</a>. Questions with more weight are listed at the top. <span class="min-passing-mark"> You have to score a minimum of 16 points (out of 23) to 'do'. </span>  </p>
+    </section>
+
+    <main> 
+        <section class="question-section"> 
+            <p class="question"> 1. Can you make a unique contribution, or bring special strengths, to the commitment? <span class="points"> 10 points</span></p>
+            <form> 
+            <form> 
+                <input type="radio" name="section1-answer" id="section1-yes"> 
+                <label > Yes </label> 
+                <input type="radio" name="section1-answer"  id="section1-no"> 
+                <label > No </label> 
+            </form>
+        </section>
+
+        <section class="question-section"> 
+            <p class="question"> 2. If you make this commitment, will you be taking time/ energy away from something else important to you?<span class="points"> 7 points</span> </p>
+            <form> 
+                <input type="radio" name="section2-answer" id="section2-yes">
+                <label> Yes </label>
+                <input type="radio" name="section2-answer"  id="section2-no">
+                <label> No </label>
+            </form>
+        </section>
+
+        <section class="question-section"> 
+            <p class="question">3. Will this commitment further your professional goals?<span class="points"> 1 point</span> </p>
+            <form> 
+                <input type="radio" name="section3-answer" id="section3-yes">
+                <label> Yes </label>
+                <input type="radio" name="section3-answer"  id="section3-no">
+                <label> No </label>
+            </form>
+        </section>
+
+        <section class="question-section"> 
+            <p class="question">4. Will this commitment further your personal goals? <span class="points"> 1 point</span></p>
+            <form> 
+                <input type="radio" name="section4-answer" id="section4-yes">
+                <label> Yes </label>
+                <input type="radio" name="section4-answer"  id="section4-no">
+                <label> No </label>
+            </form>
+
+        </section>
+        <section class="question-section"> 
+            <p class="question">5. Will this commitment involve a valuable contribution to an entity/ group of people you care about? <span class="points"> 1 point</span></p>
+            <form> 
+                <input type="radio" name="section5-answer" id="section5-yes">
+                <label> Yes </label>
+                <input type="radio" name="section5-answer"  id="section5-no">
+                <label> No </label>
+            </form>
+        </section>
+
+        <section class="question-section"> 
+            <p class="question">6. Is the person who is asking you to make the commitment important to you?<span class="points"> 1 point</span></p> 
+            <form> 
+                <input type="radio" name="section6-answer" id="section6-yes">
+                <label> Yes </label>
+                <input type="radio" name="section6-answer"  id="section6-no">
+                <label> No </label>
+            </form>
+
+        </section>
+        <section class="question-section"> 
+            <p class="question">7. Does the commitment excite/ energise you? <span class="points"> 1 point</span></p>
+            <form> 
+                <input type="radio" name="section7-answer" id="section7-yes">
+                <label> Yes </label>
+                <input type="radio" name="section7-answer"  id="section7-no">
+                <label> No </label>
+            </form>
+
+        </section>
+        <section class="question-section"> 
+            <p class="question">8.Is it likely that you’ll be asked to do something similar within the next 3 months? <span class="points"> 1 point</span> </p>
+            <form> 
+                <input type="radio" name="section8-answer" id="section8-yes">
+                <label> Yes </label>
+                <input type="radio" name="section8-answer"  id="section8-no">
+                <label> No </label>
+            </form>
+        </section>
+
+    </main>
+
+    <article class="submitbutton">
+        
+        <button onclick="calculateResult()"> Display Result </button>
+    </article> 
+
+    <section class="results-section"> 
+        <h2> Result: </h2>
+        <p class="resultdisplay" id="resultdisplay"> </p> 
+    </section>
+
+</body>
+</html>
