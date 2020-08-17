@@ -13,4 +13,4 @@ Some information about the tool:
 - The final score is the percentage of the total score over the maximum score possible; 
 - 'Do' requires a final score of 66% - to reflect the necessity of a clear choice in favour of 'Do'. 
 
-Key change from the last version: using JS to loop over the results of each question, rather than taking in values line by line. 
+The biggest change in the final edition of this project: using JS to loop over the results of each question, rather than taking in values line by line. 
