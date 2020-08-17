@@ -1,0 +1,160 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem; 
+    background: #f0eeea;
+    margin-right: 20px; 
+    margin-left: 20px; 
+}
+
+h1 {
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5rem; 
+    color: #001524; 
+    padding-top: 15px
+}
+
+h2 {
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem; 
+    color:  #04365b; 
+    margin-left: 20%; 
+    margin-right: 20%; 
+
+}
+
+@media screen and (min-width: 500px){
+    h2 {
+        font-size: 1.2rem; 
+    }
+
+}
+
+.explanation {
+    font-weight: 400; 
+    font-size: 1.4rem; 
+    color:#04365b;
+    margin: 30px 40px 10px 40px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+}
+
+form {
+    margin: 30px 40px 10px 40px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    color: #001524; 
+    font-size: 1.4rem; 
+
+}
+
+div {
+    background: white; 
+    border-radius: 10px;  
+    margin: 20px auto; 
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    text-align: center; 
+    
+}
+ 
+
+.min-passing-mark{
+    font-weight: bold; 
+    text-decoration: underline;
+}
+
+.weight-menu {
+    font-size: 1.2rem; 
+    padding: 10px 10px 10px 10px; 
+    margin-bottom: 10px; 
+    border: 3px solid #04365b;
+    background-color: #f0eeea;
+}
+
+.answer {
+    font-size: 1.2rem; 
+    padding: 10px 10px 10px 10px; 
+    margin-bottom: 10px; 
+    border: 3px solid #04365b;
+    background-color: #f0eeea;
+}
+
+
+.submitbutton {
+    display: flex; 
+    justify-content: center; 
+    padding-top: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+button {
+    font-family:'Raleway', sans-serif;
+    background: #001524; ;  
+    color: white; 
+    font-size: 20px; 
+    font-weight: 400; 
+    border-radius: 8px; 
+    padding: 10px 30px 10px 30px; 
+    border: none; 
+    margin: 0 auto; 
+
+}
+
+button:active{ 
+    background: #001524; 
+    color: lightgrey; 
+    outline: none; 
+}
+
+button:focus{ 
+    background: #001524; 
+    color: lightgrey; 
+    outline: none; 
+}
+
+.results-section{
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    border: 5px solid #001524; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 40px; 
+    margin-left: 40px; 
+    
+}
+.results-section h2{
+    text-align: center; 
+    font-size: 2rem; 
+    color: #001524;
+}
+
+.results-section p{
+    font-size: 2rem; 
+    font-family: 'Raleway', sans-serif;
+    color: #04365b;
+    text-align: center;  
+    margin-top: -10px; 
+}
+
+ 
+.points{
+    font-weight: 400; 
+    font-size: 14px; 
+    color: grey; 
+    
+}
+
+.link-to-questionnaire { 
+    text-align: center; 
+}
+
+
+
+
+ 
+ 

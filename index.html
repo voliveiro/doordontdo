@@ -1,267 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do or Don't Do?</title>
-    <script src="code2.js"></script>
-    <link rel="stylesheet" href="style.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Do or Don't Do?</title>
+        <script src="js/code3.js"></script>
+        <link rel="stylesheet" href="css/style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Raleway:wght@700;900&display=swap" rel="stylesheet">
+    </head>
 <body>
-    
+
     <header> 
         <h1> Do or Don't Do?</h1>
+        <h2> A tool to help you decide whether to take on an engagement, or volunteer for something</h2>
     </header>
 
     <section class="explanation"> 
-
-        <p> This questionnaire helps you decide whether to take on another commitment outside of regular work (e.g. a speaking engagement, a volunteer effort, serving on a board). </p> 
         
-        <p> It assumes you have a <em> choice </em> about this commitment. </p>
-        
-        <p> First choose your answer to the question. Then, choose a weight for your answer - i.e. think about how important this question is to you. <p> 
+        <p> For each question, choose your answer, then choose a weight for your answer - i.e. think about how important this question is to you. <p> 
 
-        </p> <span class="min-passing-mark"> The minimum score needed to 'do' a commitment is 66%. </span> For more information on how this final score is calculated, <a href="weightage.html">click here</a>. </p>
+        </p> <span class="min-passing-mark"> The minimum score needed to 'do' a commitment is 66%. </span> This makes sure that the reasons to take up the commitment are strong. </p> 
+        
+        <p> </p>For more information on how this final score is calculated, <a href="weightage.html">click here</a>. </p>
     </section>
+    
+    <form>
 
-    <main> 
-        <section class="question-section"> 
-            <p class="question"> 1. Can you make a positive contribution, or bring individual strengths, to the commitment? </p>
-            
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section1-answer" id="section1-yes"> 
-                    <label > Yes <span class="points"> - 2 points</span></label> 
-                </section>
-                <section class="answer-choice maybe"> 
-                    <input type="radio" name="section1-answer"  id="section1-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section1-answer"  id="section1-no"> 
-                    <label > No <span class="points"> - 0 points</span></label> 
-                </section>  
-            </form>
+        <div> 
+            <p> 1.   Can you make a positive contribution, or bring individual strengths, to the commitment? </p> 
 
-            <p class="weight-choice"> How important is this question to you?</p>
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question1-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
+            <p> How important is this question? </p> 
 
-        </section>
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
 
-        <section class="question-section"> 
-            <p class="question"> 2. Can you do this commitment without taking time/ energy away from something else important to you? </p>
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section2-answer" id="section2-yes">
-                    <label> Yes <span class="points"> - 2 points</span> </label>
-                </section>
-                <section class="answer-choice maybe"> 
-                    <input type="radio" name="section2-answer"  id="section2-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section2-answer"  id="section2-no">
-                    <label> No <span class="points"> - 0 points</span></label>
-                </section>
-            </form>
+        <div> 
+            <p> 2.   If you make this commitment, will you be taking time/ energy away from something else important to you?  </p> 
 
-            <p class="weight-choice"> How important is this question to you?</p>
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question2-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
-        </section>
+            <p> How important is this question? </p> 
 
-        <section class="question-section"> 
-            <p class="question">3. Will this commitment further your professional goals?</p>
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section3-answer" id="section3-yes">
-                    <label> Yes <span class="points"> - 2 points</span> </label>
-                </section>
-                 <section class="answer-choice maybe"> 
-                    <input type="radio" name="section3-answer"  id="section3-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section3-answer"  id="section3-no">
-                    <label> No <span class="points"> - 0 points</span> </label>
-                </section>
-            </form>
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
 
-            <p class="weight-choice"> How important is this question to you?</p>
+        <div> 
+            <p> 3.   Will this commitment further your professional goals?  </p> 
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question3-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
-        </section>
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
 
-        <section class="question-section"> 
-            <p class="question">4. Will this commitment further your personal goals? </p>
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section4-answer" id="section4-yes">
-                    <label> Yes <span class="points"> - 2 points</span> </label>
-                </section>
-                <section class="answer-choice maybe"> 
-                    <input type="radio" name="section1-answer"  id="section4-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section4-answer"  id="section4-no">
-                    <label> No <span class="points"> - 0 points</span> </label>
-                </section>
-            </form>
+            <p> How important is this question? </p> 
 
-            <p class="weight-choice"> How important is this question to you?</p>
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question4-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
+        <div> 
+            <p> 4.   Will this commitment further your personal goals? </p> 
 
-        </section>
-        <section class="question-section"> 
-            <p class="question">5. Will this commitment involve a valuable contribution to an entity/ group of people you care about? </p>
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section5-answer" id="section5-yes">
-                    <label> Yes <span class="points"> - 2 points</span> </label>
-                </section>
-                <section class="answer-choice maybe"> 
-                    <input type="radio" name="section5-answer"  id="section5-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section5-answer"  id="section5-no">
-                    <label> No <span class="points"> - 0 points</span></label>
-                </section>
-            </form>
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
 
-            <p class="weight-choice"> How important is this question to you?</p>
+            <p> How important is this question? </p> 
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question5-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
-        </section>
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
 
-        <section class="question-section"> 
-            <p class="question">6. Is the person who is asking you to make the commitment important to you?</p> 
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section6-answer" id="section6-yes">
-                    <label> Yes <span class="points"> - 2 points</span> </label>
-                </section>
-                 <section class="answer-choice maybe"> 
-                    <input type="radio" name="section6-answer"  id="section6-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section6-answer"  id="section6-no">
-                    <label> No <span class="points"> - 0 points</span> </label>
-                </section>
-            </form>
+        <div> 
+            <p> 5.   Will this commitment involve a valuable contribution to an entity/ group of people you care about? </p> 
 
-            <p class="weight-choice"> How important is this question to you?</p>
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
+            <p> How important is this question? </p> 
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question6-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
 
-        </section>
-        <section class="question-section"> 
-            <p class="question">7. Does the commitment excite/ energise you?</p>
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section7-answer" id="section7-yes">
-                    <label> Yes <span class="points"> - 2 points</span> </label>
-                </section>
-                <section class="answer-choice maybe"> 
-                    <input type="radio" name="section7-answer"  id="section7-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section7-answer"  id="section7-no">
-                    <label> No <span class="points"> - 0 points</span> </label>
-                </section>
-            </form>
+        <div> 
+            <p> 6.   Is the person who is asking you to make the commitment important to you? </p> 
 
-            <p class="weight-choice"> How important is this question to you?</p>
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question7-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
+            <p> How important is this question? </p> 
 
-        </section>
-        <section class="question-section"> 
-            <p class="question">8. Is this a rare opportunity?  </p>
-            <form class="answer-form">  
-                <section class="answer-choice"> 
-                    <input type="radio" name="section8-answer" id="section8-yes">
-                    <label> Yes <span class="points"> - 2 points</span> </label>
-                </section>
-                <section class="answer-choice maybe"> 
-                    <input type="radio" name="section8-answer"  id="section8-maybe"> 
-                    <label > Maybe <span class="points"> - 1 point</span></label> 
-                </section>
-                <section class="answer-choice"> 
-                    <input type="radio" name="section8-answer"  id="section8-no">
-                    <label> No <span class="points"> - 0 points</span> </label>
-                </section>
-            </form>
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
 
-            <p class="weight-choice"> How important is this question to you?</p>
+        <div> 
+            <p> 7.   Does the commitment excite/ energise you?  </p> 
 
-            <form class="weight-selection"> 
-                <select class="weight-menu" id="question8-wt-selector"> 
-                    <option value="3"> 3 -Very important</option>
-                    <option value="2"> 2- Important</option>
-                    <option value="1"> 1- Not so important</option>
-                </select>
-            </form>
-        </section>
-    </main>
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
 
-    <article class="submitbutton">
-        
-        <button onclick="calculateResult()"> Display Result </button>
-    </article> 
+            <p> How important is this question? </p> 
+
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
+
+        <div> 
+            <p> 8.  Is it likely that you’ll be asked to do something similar within the next 3 months?   </p> 
+
+            <select class="answer" id="answer1"> 
+                <option value="3"> Yes</option>
+                <option value="2"> Maybe</option>
+                <option value="1"> No</option>
+            </select>
+
+            <p> How important is this question? </p> 
+
+            <select class="weight-menu" id="weight"> 
+                <option value="3"> Very important</option>
+                <option value="2"> Important</option>
+                <option value="1"> Not so important</option>
+            </select>
+        </div>
+
+    </form>
+
+    <section class="submitbutton"> 
+
+        <button onclick="calculateResult()"> Submit </button>
+
+   </section>
 
     <section class="results-section"> 
         <h2> Result: </h2>
-        <p class="resultdisplay" id="resultdisplay"> </p> 
+        <p  id="resultDisplay"> </p> 
     </section>
-
+ 
 </body>
 </html>

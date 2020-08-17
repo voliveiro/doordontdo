@@ -14,7 +14,7 @@ h1 {
     color: white; 
     background: navy; 
     padding-top: 15px;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 
 }
 
@@ -91,11 +91,11 @@ form {
     padding-top: 10px; 
 }
 button {
-    background: rgb(55, 93, 150); 
-    color: lightgrey; 
+    background: navy;  
+    color: white; 
     font-size: 20px; 
     font-weight: 400; 
-    border-radius: 12px; 
+    border-radius: 8px; 
     padding: 10px 30px 10px 30px; 
     border: none; 
     margin: 0 auto; 
@@ -104,13 +104,13 @@ button {
 
 button:active{ 
     background: navy; 
-    color: white; 
+    color: lightgrey; 
     outline: none; 
 }
 
 button:focus{ 
     background: navy; 
-    color: white; 
+    color: lightgrey; 
     outline: none; 
 }
 

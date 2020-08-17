@@ -1,0 +1,165 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and (min-width: 500px){
+    body {
+        margin: 20px 50px 20px 50px; 
+    }
+
+}
+h1 {
+    text-align: center; 
+    font-size: 26px; 
+    color: white; 
+    background: navy; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.explanation {
+    font-weight: 400; 
+    font-size: 18px; 
+    color: rgb(138, 134, 134);
+    padding: 5px 20px 20px 20px; 
+}
+
+.min-passing-mark{
+    font-weight: bold; 
+    text-decoration: underline;
+}
+
+.question-section {
+    border: 1px lightgrey solid; 
+    margin: 10px auto; 
+    box-shadow: 2px 2px darkgrey; 
+    padding-left: 15px; 
+    padding-right: 12px; 
+    text-align: center; 
+    
+}
+.question {
+    font-size: 20px; 
+    font-weight: 400; 
+    text-align: left; 
+}
+
+@media screen and (min-width: 500px) {
+    .question-section .question {
+        text-align: center; 
+    }
+}
+
+form {
+    font-size: 16px; 
+    padding-bottom: 10px; 
+    margin: 0 auto; 
+  
+}
+
+.not-selected {
+    background: lightpink; 
+    font-style: italic; 
+    color: grey; 
+}
+ 
+
+.maybe {
+    margin-top: 3px; 
+    margin-bottom: 3px; 
+}
+
+.weight-selection {
+    margin-bottom: 5px; 
+ 
+}
+
+.weight-choice {
+    font-size: 17px; 
+    padding: 2px 2px 2px 2px; 
+    margin: 15px 20px 12px 20px; 
+
+}
+
+.weight-menu {
+    font-size: 15px; 
+    padding: 5px 5px 5px 5px; 
+}
+
+.answer-menu {
+    font-size: 15px; 
+    padding: 5px 5px 5px 5px; 
+}
+
+.submitbutton {
+    text-align: center; 
+    padding-top: 10px; 
+}
+button {
+    background: navy;  
+    color: white; 
+    font-size: 20px; 
+    font-weight: 400; 
+    border-radius: 8px; 
+    padding: 10px 30px 10px 30px; 
+    border: none; 
+    margin: 0 auto; 
+
+}
+
+button:active{ 
+    background: navy; 
+    color: lightgrey; 
+    outline: none; 
+}
+
+button:focus{ 
+    background: navy; 
+    color: lightgrey; 
+    outline: none; 
+}
+
+.resultdisplay{
+    font-size: 22px; 
+    color: black; 
+}
+
+.results-section{
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    border: 5px solid navy; 
+    
+   
+}
+
+.results-section h2{
+    text-align: center; 
+    font-size: 24px; 
+}
+
+.resultdisplay{
+    text-align: Center; 
+    font-size: 22px;
+}
+ 
+.points{
+    font-weight: 400; 
+    font-size: 14px; 
+    color: grey; 
+    
+}
+
+.link-to-questionnaire { 
+    text-align: center; 
+}
+
+a{ 
+    font-size: 18px; 
+    
+}
+
+
+
+ 
+ 
