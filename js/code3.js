@@ -36,9 +36,10 @@ function calculateResult(){
 
     if (finalScore >= 66) {
         document.querySelector("#resultDisplay").textContent = `Your score is ${finalScore}. Do it.`
+        document.querySelector("#resultDisplay").style.color="green"
     } else {
         document.querySelector("#resultDisplay").textContent = `Your score is ${finalScore}. Don't do it.`
+        document.querySelector("#resultDisplay").style.color="red"
     }
-
 
     }
